@@ -13,7 +13,6 @@ class read_yaml():
             f=open(self.file,encoding="utf-8")
             data= yaml.load_all(f,Loader=yaml.FullLoader)
             for a in data:
-                print(a)
                 return a
         except Exception as e:
             print(e)

@@ -18,17 +18,16 @@ class Testcase(object):
     def teardown_method(self):#类方法级别的 teardown.....
         pass
     list = read_yaml("D:\\request\腾讯云代码库\pytest_request\config\\requests.yaml").read_yaml()
-    s= requests.sessions
+    print(list)
     @pytest.mark.parametrize('name,requests',list)
     @allure.story('登录模块下的子模块:正确账号密码登录')
     @allure.title('正确账号密码登录')
     @allure.description('这是测试用例用例1的描述信息')
 
     def test_case01(self, name, requests):
-        print(requests["url"])
-        re = send_requests.SendRequests.sendRequests(self,self.s,requests)
-        print(re.text)
-
+        print(requests)
+        re = send_requests.SendRequests.sendRequests(self,requests)
+        print(re.json())
 
 if __name__ == '__main__':
     Testcase().test_case01()
