@@ -1,3 +1,5 @@
+#!/usr/bin/python
+#!/usr/bin/env python
 import sys,os
 config = os.path.dirname(os.path.dirname(__file__))
 sys.path.append(config)

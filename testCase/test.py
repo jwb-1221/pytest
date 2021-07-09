@@ -1,3 +1,5 @@
+#!/usr/bin/python
+#!/usr/bin/env python
 import pytest
 import allure
 import time
@@ -17,7 +19,7 @@ class Testcase(object):
         pass
     def teardown_method(self):#类方法级别的 teardown.....
         pass
-    list = read_yaml("D:\\request\腾讯云代码库\pytest_request\config\\requests.yaml").read_yaml()
+    list = read_yaml("C:\\Users\86158\Desktop\新建文件夹\pytest_request\config\\requests.yaml").read_yaml()
     @pytest.mark.parametrize('name,requests',list)
     @allure.story('登录模块下的子模块:正确账号密码登录')
     @allure.title('{name}')

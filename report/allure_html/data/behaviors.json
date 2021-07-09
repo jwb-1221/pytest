@@ -7,30 +7,56 @@
       "name" : "登录模块下的子模块:正确账号密码登录",
       "children" : [ {
         "name" : "正常登录",
-        "uid" : "5132e358eb741955",
+        "uid" : "36cc2e922281edf1",
         "parentUid" : "4796e7eb3d52a444c844a29e0e4d2c6f",
         "status" : "passed",
         "time" : {
-          "start" : 1625646062642,
-          "stop" : 1625646063579,
-          "duration" : 937
+          "start" : 1625828307115,
+          "stop" : 1625828307325,
+          "duration" : 210
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'正常登录'", "{'method': 'post', 'url': 'http://account-admin-webos-test.lastmiles.cn/account-admin-web/login', 'headers': None, 'type': 'data', 'body': {'username': 'admin', 'password': '123456.', 'verificationCode': 99999, 'loginStatus': 0}}" ]
       }, {
-        "name" : "异常登录",
-        "uid" : "3ca7dfb006c6c3b5",
+        "name" : "账号错误登录",
+        "uid" : "9d90b86fe363f6d8",
         "parentUid" : "4796e7eb3d52a444c844a29e0e4d2c6f",
         "status" : "passed",
         "time" : {
-          "start" : 1625646063593,
-          "stop" : 1625646063844,
-          "duration" : 251
+          "start" : 1625828307330,
+          "stop" : 1625828307432,
+          "duration" : 102
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'异常登录'", "{'method': 'post', 'url': 'http://account-admin-webos-test.lastmiles.cn/account-admin-web/login', 'headers': None, 'type': 'data', 'body': {'username': 'admin', 'password': '123456.', 'verificationCode': 99999, 'loginStatus': 0}}" ]
+        "parameters" : [ "'账号错误登录'", "{'method': 'post', 'url': 'http://account-admin-webos-test.lastmiles.cn/account-admin-web/login', 'headers': None, 'type': 'data', 'body': {'username': 'admi', 'password': '123456.', 'verificationCode': 99999, 'loginStatus': 0}}" ]
+      }, {
+        "name" : "密码错误登录",
+        "uid" : "1ec33529888644d8",
+        "parentUid" : "4796e7eb3d52a444c844a29e0e4d2c6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625828307437,
+          "stop" : 1625828307552,
+          "duration" : 115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'密码错误登录'", "{'method': 'post', 'url': 'http://account-admin-webos-test.lastmiles.cn/account-admin-web/login', 'headers': None, 'type': 'data', 'body': {'username': 'admin', 'password': '123456', 'verificationCode': 99999, 'loginStatus': 0}}" ]
+      }, {
+        "name" : "验证码错误登录",
+        "uid" : "dd0697d64cf88bd6",
+        "parentUid" : "4796e7eb3d52a444c844a29e0e4d2c6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625828307560,
+          "stop" : 1625828307645,
+          "duration" : 85
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'验证码错误登录'", "{'method': 'post', 'url': 'http://account-admin-webos-test.lastmiles.cn/account-admin-web/login', 'headers': None, 'type': 'data', 'body': {'username': 'admin', 'password': '123456.', 'verificationCode': 9999, 'loginStatus': 0}}" ]
       } ],
       "uid" : "4796e7eb3d52a444c844a29e0e4d2c6f"
     } ],

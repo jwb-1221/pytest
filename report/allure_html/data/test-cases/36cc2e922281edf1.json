@@ -1,0 +1,147 @@
+{
+  "uid" : "36cc2e922281edf1",
+  "name" : "正常登录",
+  "fullName" : "testCase.test.Testcase#test_case01",
+  "historyId" : "d3220cc98eefb21d1a61e1bf233a780b",
+  "time" : {
+    "start" : 1625828307115,
+    "stop" : 1625828307325,
+    "duration" : 210
+  },
+  "description" : "这是测试用例用例1的描述信息",
+  "descriptionHtml" : "<p>这是测试用例用例1的描述信息</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1625828307115,
+      "stop" : 1625828307115,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1625828307115,
+      "stop" : 1625828307115,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "这是测试用例用例1的描述信息",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d0f2ec13ee3b1eca",
+      "name" : "log",
+      "source" : "d0f2ec13ee3b1eca.txt",
+      "type" : "text/plain",
+      "size" : 1837
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1625828307327,
+      "stop" : 1625828307327,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1625828307647,
+      "stop" : 1625828307647,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "登录模块下的子模块:正确账号密码登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-A4JC8MUR"
+  }, {
+    "name" : "thread",
+    "value" : "17264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "name",
+    "value" : "'正常登录'"
+  }, {
+    "name" : "requests",
+    "value" : "{'method': 'post', 'url': 'http://account-admin-webos-test.lastmiles.cn/account-admin-web/login', 'headers': None, 'type': 'data', 'body': {'username': 'admin', 'password': '123456.', 'verificationCode': 99999, 'loginStatus': 0}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "36cc2e922281edf1.json",
+  "parameterValues" : [ "'正常登录'", "{'method': 'post', 'url': 'http://account-admin-webos-test.lastmiles.cn/account-admin-web/login', 'headers': None, 'type': 'data', 'body': {'username': 'admin', 'password': '123456.', 'verificationCode': 99999, 'loginStatus': 0}}" ]
+}

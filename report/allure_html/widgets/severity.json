@@ -1,20 +1,40 @@
 [ {
-  "uid" : "3ca7dfb006c6c3b5",
-  "name" : "异常登录",
+  "uid" : "36cc2e922281edf1",
+  "name" : "正常登录",
   "time" : {
-    "start" : 1625646063593,
-    "stop" : 1625646063844,
-    "duration" : 251
+    "start" : 1625828307115,
+    "stop" : 1625828307325,
+    "duration" : 210
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5132e358eb741955",
-  "name" : "正常登录",
+  "uid" : "9d90b86fe363f6d8",
+  "name" : "账号错误登录",
   "time" : {
-    "start" : 1625646062642,
-    "stop" : 1625646063579,
-    "duration" : 937
+    "start" : 1625828307330,
+    "stop" : 1625828307432,
+    "duration" : 102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ec33529888644d8",
+  "name" : "密码错误登录",
+  "time" : {
+    "start" : 1625828307437,
+    "stop" : 1625828307552,
+    "duration" : 115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd0697d64cf88bd6",
+  "name" : "验证码错误登录",
+  "time" : {
+    "start" : 1625828307560,
+    "stop" : 1625828307645,
+    "duration" : 85
   },
   "status" : "passed",
   "severity" : "normal"

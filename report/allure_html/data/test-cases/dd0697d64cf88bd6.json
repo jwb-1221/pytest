@@ -1,12 +1,12 @@
 {
-  "uid" : "3ca7dfb006c6c3b5",
-  "name" : "异常登录",
+  "uid" : "dd0697d64cf88bd6",
+  "name" : "验证码错误登录",
   "fullName" : "testCase.test.Testcase#test_case01",
-  "historyId" : "afa68a92b5005a41332b0ef210b435a4",
+  "historyId" : "95530a7dd10a39905d56edca8ac02b28",
   "time" : {
-    "start" : 1625646063593,
-    "stop" : 1625646063844,
-    "duration" : 251
+    "start" : 1625828307560,
+    "stop" : 1625828307645,
+    "duration" : 85
   },
   "description" : "这是测试用例用例1的描述信息",
   "descriptionHtml" : "<p>这是测试用例用例1的描述信息</p>\n",
@@ -14,64 +14,81 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "xunit_setup_class_fixture_Testcase",
+    "name" : "_Class__pytest_setup_method",
     "time" : {
-      "start" : 1625646062640,
-      "stop" : 1625646062640,
+      "start" : 1625828307559,
+      "stop" : 1625828307559,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "hasContent" : false,
     "stepsCount" : 0
   }, {
-    "name" : "xunit_setup_method_fixture_Testcase",
+    "name" : "_Class__pytest_setup_class",
     "time" : {
-      "start" : 1625646063592,
-      "stop" : 1625646063592,
+      "start" : 1625828307115,
+      "stop" : 1625828307115,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "hasContent" : false,
     "stepsCount" : 0
   } ],
+  "testStage" : {
+    "description" : "这是测试用例用例1的描述信息",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8f0354219fd98627",
+      "name" : "log",
+      "source" : "8f0354219fd98627.txt",
+      "type" : "text/plain",
+      "size" : 677
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
   "afterStages" : [ {
-    "name" : "xunit_setup_class_fixture_Testcase::0",
+    "name" : "_Class__pytest_setup_method::0",
     "time" : {
-      "start" : 1625646063851,
-      "stop" : 1625646063851,
+      "start" : 1625828307647,
+      "stop" : 1625828307647,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "hasContent" : false,
     "stepsCount" : 0
   }, {
-    "name" : "xunit_setup_method_fixture_Testcase::0",
+    "name" : "_Class__pytest_setup_class::0",
     "time" : {
-      "start" : 1625646063849,
-      "stop" : 1625646063849,
+      "start" : 1625828307647,
+      "stop" : 1625828307647,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "hasContent" : false,
     "stepsCount" : 0
   } ],
@@ -92,10 +109,10 @@
     "value" : "Testcase"
   }, {
     "name" : "host",
-    "value" : "XSD-20190315NRK"
+    "value" : "LAPTOP-A4JC8MUR"
   }, {
     "name" : "thread",
-    "value" : "15720-MainThread"
+    "value" : "17264-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -111,10 +128,10 @@
   } ],
   "parameters" : [ {
     "name" : "name",
-    "value" : "'异常登录'"
+    "value" : "'验证码错误登录'"
   }, {
     "name" : "requests",
-    "value" : "{'method': 'post', 'url': 'http://account-admin-webos-test.lastmiles.cn/account-admin-web/login', 'headers': None, 'type': 'data', 'body': {'username': 'admin', 'password': '123456.', 'verificationCode': 99999, 'loginStatus': 0}}"
+    "value" : "{'method': 'post', 'url': 'http://account-admin-webos-test.lastmiles.cn/account-admin-web/login', 'headers': None, 'type': 'data', 'body': {'username': 'admin', 'password': '123456.', 'verificationCode': 9999, 'loginStatus': 0}}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -125,6 +142,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3ca7dfb006c6c3b5.json",
-  "parameterValues" : [ "'异常登录'", "{'method': 'post', 'url': 'http://account-admin-webos-test.lastmiles.cn/account-admin-web/login', 'headers': None, 'type': 'data', 'body': {'username': 'admin', 'password': '123456.', 'verificationCode': 99999, 'loginStatus': 0}}" ]
+  "source" : "dd0697d64cf88bd6.json",
+  "parameterValues" : [ "'验证码错误登录'", "{'method': 'post', 'url': 'http://account-admin-webos-test.lastmiles.cn/account-admin-web/login', 'headers': None, 'type': 'data', 'body': {'username': 'admin', 'password': '123456.', 'verificationCode': 9999, 'loginStatus': 0}}" ]
 }
