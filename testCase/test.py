@@ -1,11 +1,11 @@
-#!/usr/bin/python
 #!/usr/bin/env python
+# _*_ coding:utf-8 _*_
 import pytest
 import allure
-import time
 import os,sys
 import requests
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+from config.config import YAML
 from lib import send_requests, loging
 from lib.read_yaml import read_yaml
 
@@ -19,7 +19,7 @@ class Testcase(object):
         pass
     def teardown_method(self):#类方法级别的 teardown.....
         pass
-    list = read_yaml("C:\\Users\86158\Desktop\新建文件夹\pytest_request\config\\requests.yaml").read_yaml()
+    list = read_yaml(YAML).read_yaml()
     @pytest.mark.parametrize('name,requests',list)
     @allure.story('登录模块下的子模块:正确账号密码登录')
     @allure.title('{name}')

@@ -1,5 +1,5 @@
-#!/usr/bin/python
 #!/usr/bin/env python
+# _*_ coding:utf-8 _*_
 import sys,os
 config = os.path.dirname(os.path.dirname(__file__))
 sys.path.append(config)
@@ -13,5 +13,7 @@ TEST_REPORT = os.path.join(config,"screenshot")
 TEST_CASE = os.path.join(config,"testCase")
 #测试用例模板
 TEST_CONFIG = os.path.join(config,"config","testcase.xlsx")
+#yaml文件
+YAML = os.path.join(config,"config","requests.yaml")
 #日志目录
 LOG = os.path.join(config,"log")
