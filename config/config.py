@@ -11,4 +11,5 @@ TEST_REPORT = os.path.join(config,"screenshot")
 TEST_CASE = os.path.join(config,"testCase")
 #测试用例模板
 TEST_CONFIG = os.path.join(config,"config","testcase.xlsx")
-
+#日志目录
+LOG = os.path.join(config,"log")

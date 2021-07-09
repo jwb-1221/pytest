@@ -12,7 +12,31 @@
       loginStatus: 0
 
 -
-  - 异常登录
+  - 账号错误登录
+  -
+    method: post
+    url: http://account-admin-webos-test.lastmiles.cn/account-admin-web/login
+    headers:
+    type: data
+    body:
+      username: admi
+      password: '123456.'
+      verificationCode: 99999
+      loginStatus: 0
+-
+  - 密码错误登录
+  -
+    method: post
+    url: http://account-admin-webos-test.lastmiles.cn/account-admin-web/login
+    headers:
+    type: data
+    body:
+      username: admin
+      password: '123456'
+      verificationCode: 99999
+      loginStatus: 0
+-
+  - 验证码错误登录
   -
     method: post
     url: http://account-admin-webos-test.lastmiles.cn/account-admin-web/login
@@ -21,5 +45,5 @@
     body:
       username: admin
       password: '123456.'
-      verificationCode: 99999
+      verificationCode: 9999
       loginStatus: 0
