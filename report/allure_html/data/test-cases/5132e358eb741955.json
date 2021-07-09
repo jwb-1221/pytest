@@ -1,0 +1,130 @@
+{
+  "uid" : "5132e358eb741955",
+  "name" : "正常登录",
+  "fullName" : "testCase.test.Testcase#test_case01",
+  "historyId" : "d3220cc98eefb21d1a61e1bf233a780b",
+  "time" : {
+    "start" : 1625646062642,
+    "stop" : 1625646063579,
+    "duration" : 937
+  },
+  "description" : "这是测试用例用例1的描述信息",
+  "descriptionHtml" : "<p>这是测试用例用例1的描述信息</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_Testcase",
+    "time" : {
+      "start" : 1625646062640,
+      "stop" : 1625646062640,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "xunit_setup_method_fixture_Testcase",
+    "time" : {
+      "start" : 1625646062641,
+      "stop" : 1625646062641,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Testcase::0",
+    "time" : {
+      "start" : 1625646063851,
+      "stop" : 1625646063851,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "xunit_setup_method_fixture_Testcase::0",
+    "time" : {
+      "start" : 1625646063583,
+      "stop" : 1625646063583,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "登录模块下的子模块:正确账号密码登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "XSD-20190315NRK"
+  }, {
+    "name" : "thread",
+    "value" : "15720-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "name",
+    "value" : "'正常登录'"
+  }, {
+    "name" : "requests",
+    "value" : "{'method': 'post', 'url': 'http://account-admin-webos-test.lastmiles.cn/account-admin-web/login', 'headers': None, 'type': 'data', 'body': {'username': 'admin', 'password': '123456.', 'verificationCode': 99999, 'loginStatus': 0}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5132e358eb741955.json",
+  "parameterValues" : [ "'正常登录'", "{'method': 'post', 'url': 'http://account-admin-webos-test.lastmiles.cn/account-admin-web/login', 'headers': None, 'type': 'data', 'body': {'username': 'admin', 'password': '123456.', 'verificationCode': 99999, 'loginStatus': 0}}" ]
+}

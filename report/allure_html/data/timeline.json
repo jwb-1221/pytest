@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "XSD-20190315NRK",
+    "children" : [ {
+      "name" : "15720-MainThread",
+      "children" : [ {
+        "name" : "正常登录",
+        "uid" : "5132e358eb741955",
+        "parentUid" : "a7713fd4500d48b1c23b4c78066ddae1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625646062642,
+          "stop" : 1625646063579,
+          "duration" : 937
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'正常登录'", "{'method': 'post', 'url': 'http://account-admin-webos-test.lastmiles.cn/account-admin-web/login', 'headers': None, 'type': 'data', 'body': {'username': 'admin', 'password': '123456.', 'verificationCode': 99999, 'loginStatus': 0}}" ]
+      }, {
+        "name" : "异常登录",
+        "uid" : "3ca7dfb006c6c3b5",
+        "parentUid" : "a7713fd4500d48b1c23b4c78066ddae1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625646063593,
+          "stop" : 1625646063844,
+          "duration" : 251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'异常登录'", "{'method': 'post', 'url': 'http://account-admin-webos-test.lastmiles.cn/account-admin-web/login', 'headers': None, 'type': 'data', 'body': {'username': 'admin', 'password': '123456.', 'verificationCode': 99999, 'loginStatus': 0}}" ]
+      } ],
+      "uid" : "a7713fd4500d48b1c23b4c78066ddae1"
+    } ],
+    "uid" : "6a785c9550d4705623fbd2ea7f3ceb93"
+  } ]
+}

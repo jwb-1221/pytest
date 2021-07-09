@@ -1,0 +1,21 @@
+[ {
+  "uid" : "5132e358eb741955",
+  "name" : "正常登录",
+  "time" : {
+    "start" : 1625646062642,
+    "stop" : 1625646063579,
+    "duration" : 937
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ca7dfb006c6c3b5",
+  "name" : "异常登录",
+  "time" : {
+    "start" : 1625646063593,
+    "stop" : 1625646063844,
+    "duration" : 251
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
