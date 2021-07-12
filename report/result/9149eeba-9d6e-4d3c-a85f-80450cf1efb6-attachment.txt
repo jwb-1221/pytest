@@ -1,6 +1,0 @@
-[32mINFO    [0m root:loging.py:40 *****正在执行-----验证码错误登录-----用例*****
-[32mINFO    [0m root:loging.py:40 *****开始发送请求*****
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:227 Starting new HTTP connection (1): account-admin-webos-test.lastmiles.cn:80
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://account-admin-webos-test.lastmiles.cn:80 "POST /account-admin-web/login HTTP/1.1" 200 None
-[32mINFO    [0m root:loging.py:40 *****发送请求结束*****
-[31m[1mERROR   [0m root:loging.py:46 {'code': 500, 'message': '验证码错误或已过期', 'data': None, 'requestId': 'ac130005162582830933059546'}
