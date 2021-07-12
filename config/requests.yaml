@@ -47,3 +47,16 @@
       password: '123456.'
       verificationCode: 9999
       loginStatus: 0
+-
+  - 正常登录
+  -
+    method: post
+    url: http://account-admin-webos-test.lastmiles.cn/account-admin-web/login
+    headers:
+    type: data
+    body:
+      username: admin
+      password: '123456.'
+      verificationCode: 99999
+      loginStatus: 0
+
