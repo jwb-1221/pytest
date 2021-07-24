@@ -2,4 +2,9 @@ pytest
 allure-python-commons
 allure-pytest
 requests
-pyyaml
+PyYAML
+xlrd
+yagmail
+zmail
+pygame
+ddt

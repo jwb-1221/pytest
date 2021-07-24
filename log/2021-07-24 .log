@@ -1,0 +1,100 @@
+[2021-07-24 15:54:03,334] [log.py|__console] [line:44] INFO    : *****正在执行-----正常登录-----用例*****
+[2021-07-24 15:54:03,336] [log.py|__console] [line:44] INFO    : *****开始发送请求*****
+[2021-07-24 15:54:03,337] [log.py|__console] [line:44] INFO    : *****请求方式是-----post-----*****
+[2021-07-24 15:54:03,339] [log.py|__console] [line:44] INFO    : *****请求路径是http://account-admin-webos-test.lastmiles.cn/account-admin-web/login*****
+[2021-07-24 15:54:03,340] [log.py|__console] [line:44] INFO    : *****请求体信息是{'username': 'admin', 'password': '123456.', 'verificationCode': 9999, 'loginStatus': 0}*****
+[2021-07-24 15:54:04,508] [log.py|__console] [line:44] INFO    : *****发送请求结束*****
+[2021-07-24 15:54:04,525] [log.py|__console] [line:44] INFO    : *****正在执行-----账号错误登录-----用例*****
+[2021-07-24 15:54:04,526] [log.py|__console] [line:44] INFO    : *****开始发送请求*****
+[2021-07-24 15:54:04,527] [log.py|__console] [line:44] INFO    : *****请求方式是-----post-----*****
+[2021-07-24 15:54:04,529] [log.py|__console] [line:44] INFO    : *****请求路径是http://account-admin-webos-test.lastmiles.cn/account-admin-web/login*****
+[2021-07-24 15:54:04,530] [log.py|__console] [line:44] INFO    : *****请求体信息是{'username': 'admi', 'password': '123456.', 'verificationCode': 99999, 'loginStatus': 0}*****
+[2021-07-24 15:54:04,594] [log.py|__console] [line:44] INFO    : *****发送请求结束*****
+[2021-07-24 15:54:04,611] [log.py|__console] [line:44] INFO    : *****正在执行-----密码错误登录-----用例*****
+[2021-07-24 15:54:04,613] [log.py|__console] [line:44] INFO    : *****开始发送请求*****
+[2021-07-24 15:54:04,615] [log.py|__console] [line:44] INFO    : *****请求方式是-----post-----*****
+[2021-07-24 15:54:04,616] [log.py|__console] [line:44] INFO    : *****请求路径是http://account-admin-webos-test.lastmiles.cn/account-admin-web/login*****
+[2021-07-24 15:54:04,617] [log.py|__console] [line:44] INFO    : *****请求体信息是{'username': 'admin', 'password': '123456', 'verificationCode': 99999, 'loginStatus': 0}*****
+[2021-07-24 15:54:04,667] [log.py|__console] [line:44] INFO    : *****发送请求结束*****
+[2021-07-24 15:54:04,684] [log.py|__console] [line:44] INFO    : *****正在执行-----验证码错误登录-----用例*****
+[2021-07-24 15:54:04,685] [log.py|__console] [line:44] INFO    : *****开始发送请求*****
+[2021-07-24 15:54:04,686] [log.py|__console] [line:44] INFO    : *****请求方式是-----post-----*****
+[2021-07-24 15:54:04,688] [log.py|__console] [line:44] INFO    : *****请求路径是http://account-admin-webos-test.lastmiles.cn/account-admin-web/login*****
+[2021-07-24 15:54:04,689] [log.py|__console] [line:44] INFO    : *****请求体信息是{'username': 'admin', 'password': '123456.', 'verificationCode': 9999, 'loginStatus': 0}*****
+[2021-07-24 15:54:04,738] [log.py|__console] [line:44] INFO    : *****发送请求结束*****
+[2021-07-24 15:54:04,755] [log.py|__console] [line:44] INFO    : *****正在执行-----正常登8888888888-----用例*****
+[2021-07-24 15:54:04,756] [log.py|__console] [line:44] INFO    : *****开始发送请求*****
+[2021-07-24 15:54:04,757] [log.py|__console] [line:44] INFO    : *****请求方式是-----post-----*****
+[2021-07-24 15:54:04,759] [log.py|__console] [line:44] INFO    : *****请求路径是http://account-admin-webos-test.lastmiles.cn/account-admin-web/taxpayer/selectMerchantList*****
+[2021-07-24 15:54:04,763] [log.py|__console] [line:44] INFO    : *****请求头信息是{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJkYXRhIjp7ImZkZFRlbXBsYXRlSWQiOiJYWUZERDY3NzYwMzI2NTc1MzEyMzYzNTIiLCJpc1VwZGF0ZVB3ZCI6MCwibG9naW5UeXBlIjowLCJ1c2VyTG9naW5JZCI6NjU5Mzc0NjkwMTM1MzA4Mjg4MCwibWVyY2hhbnRJZCI6IiIsInRhc2tVcmwiOiJodHRwczovL2Nkbi5sYXN0bWlsZXMuY24vYXBwcy82NzIyODEyMjM3NzQzNTk5NjE2LnBkZiIsImxvZ2luTmFtZSI6Iui2hee6p-euoeeQhuWRmCIsInN5c05hbWUiOiLns7vnu5_mk43kvZzmiYvlhowtVjEuMCIsImlzTWFuYWdlciI6MSwiaXNBc3luY1JlcXVlc3QiOiJ0cnVlIiwic3lzVXJsIjoiaHR0cHM6Ly9jZG4ubGFzdG1pbGVzLmNuL2FwcHMvNjcyMjgxMTU2OTM5ODAzNDQzMi5wZGYiLCJ0YXNrTmFtZSI6IuWFheWAvOS7o-WPkeaTjeS9nOaJi-WGjC1WMS4wIiwibWVyY2hhbnRSYW5nZSI6MSwidXNlcm5hbWUiOiJhZG1pbiJ9LCJzdWIiOiI2NTkzNzQ2OTAxMzUzMDgyODgwIiwiZXhwIjoxNjI5MjU3MjAzfQ.vrJxdKLw9iLvJTQ5ttjSuiS4MRejuw8gL6sU3wkKqzZM5InQEexLYjwf1P2OgicaRgOlsGO-2Gv491iPFZKOeg'}*****
+[2021-07-24 15:54:04,765] [log.py|__console] [line:44] INFO    : *****请求体信息是{'flag': 0, 'merchantName': None}*****
+[2021-07-24 15:54:04,870] [log.py|__console] [line:44] INFO    : *****发送请求结束*****
+[2021-07-24 15:56:19,669] [log.py|__console] [line:44] INFO    : *****正在执行-----正常登录-----用例*****
+[2021-07-24 15:56:19,671] [log.py|__console] [line:44] INFO    : *****开始发送请求*****
+[2021-07-24 15:56:19,674] [log.py|__console] [line:44] INFO    : *****请求方式是-----post-----*****
+[2021-07-24 15:56:19,676] [log.py|__console] [line:44] INFO    : *****请求路径是http://account-admin-webos-test.lastmiles.cn/account-admin-web/login*****
+[2021-07-24 15:56:19,677] [log.py|__console] [line:44] INFO    : *****请求体信息是{'username': 'admin', 'password': '123456.', 'verificationCode': 9999, 'loginStatus': 0}*****
+[2021-07-24 15:56:19,849] [log.py|__console] [line:44] INFO    : *****发送请求结束*****
+[2021-07-24 15:56:19,866] [log.py|__console] [line:44] INFO    : *****正在执行-----账号错误登录-----用例*****
+[2021-07-24 15:56:19,867] [log.py|__console] [line:44] INFO    : *****开始发送请求*****
+[2021-07-24 15:56:19,868] [log.py|__console] [line:44] INFO    : *****请求方式是-----post-----*****
+[2021-07-24 15:56:19,869] [log.py|__console] [line:44] INFO    : *****请求路径是http://account-admin-webos-test.lastmiles.cn/account-admin-web/login*****
+[2021-07-24 15:56:19,870] [log.py|__console] [line:44] INFO    : *****请求体信息是{'username': 'admi', 'password': '123456.', 'verificationCode': 99999, 'loginStatus': 0}*****
+[2021-07-24 15:56:19,953] [log.py|__console] [line:44] INFO    : *****发送请求结束*****
+[2021-07-24 15:56:19,971] [log.py|__console] [line:44] INFO    : *****正在执行-----密码错误登录-----用例*****
+[2021-07-24 15:56:19,972] [log.py|__console] [line:44] INFO    : *****开始发送请求*****
+[2021-07-24 15:56:19,973] [log.py|__console] [line:44] INFO    : *****请求方式是-----post-----*****
+[2021-07-24 15:56:19,974] [log.py|__console] [line:44] INFO    : *****请求路径是http://account-admin-webos-test.lastmiles.cn/account-admin-web/login*****
+[2021-07-24 15:56:19,976] [log.py|__console] [line:44] INFO    : *****请求体信息是{'username': 'admin', 'password': '123456', 'verificationCode': 99999, 'loginStatus': 0}*****
+[2021-07-24 15:56:20,027] [log.py|__console] [line:44] INFO    : *****发送请求结束*****
+[2021-07-24 15:56:20,045] [log.py|__console] [line:44] INFO    : *****正在执行-----验证码错误登录-----用例*****
+[2021-07-24 15:56:20,046] [log.py|__console] [line:44] INFO    : *****开始发送请求*****
+[2021-07-24 15:56:20,047] [log.py|__console] [line:44] INFO    : *****请求方式是-----post-----*****
+[2021-07-24 15:56:20,049] [log.py|__console] [line:44] INFO    : *****请求路径是http://account-admin-webos-test.lastmiles.cn/account-admin-web/login*****
+[2021-07-24 15:56:20,050] [log.py|__console] [line:44] INFO    : *****请求体信息是{'username': 'admin', 'password': '123456.', 'verificationCode': 9999, 'loginStatus': 0}*****
+[2021-07-24 15:56:20,099] [log.py|__console] [line:44] INFO    : *****发送请求结束*****
+[2021-07-24 15:56:20,115] [log.py|__console] [line:44] INFO    : *****正在执行-----正常登8888888888-----用例*****
+[2021-07-24 15:56:20,116] [log.py|__console] [line:44] INFO    : *****开始发送请求*****
+[2021-07-24 15:56:20,117] [log.py|__console] [line:44] INFO    : *****请求方式是-----post-----*****
+[2021-07-24 15:56:20,118] [log.py|__console] [line:44] INFO    : *****请求路径是http://account-admin-webos-test.lastmiles.cn/account-admin-web/taxpayer/selectMerchantList*****
+[2021-07-24 15:56:20,122] [log.py|__console] [line:44] INFO    : *****请求头信息是{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJkYXRhIjp7ImZkZFRlbXBsYXRlSWQiOiJYWUZERDY3NzYwMzI2NTc1MzEyMzYzNTIiLCJpc1VwZGF0ZVB3ZCI6MCwibG9naW5UeXBlIjowLCJ1c2VyTG9naW5JZCI6NjU5Mzc0NjkwMTM1MzA4Mjg4MCwibWVyY2hhbnRJZCI6IiIsInRhc2tVcmwiOiJodHRwczovL2Nkbi5sYXN0bWlsZXMuY24vYXBwcy82NzIyODEyMjM3NzQzNTk5NjE2LnBkZiIsImxvZ2luTmFtZSI6Iui2hee6p-euoeeQhuWRmCIsInN5c05hbWUiOiLns7vnu5_mk43kvZzmiYvlhowtVjEuMCIsImlzTWFuYWdlciI6MSwiaXNBc3luY1JlcXVlc3QiOiJ0cnVlIiwic3lzVXJsIjoiaHR0cHM6Ly9jZG4ubGFzdG1pbGVzLmNuL2FwcHMvNjcyMjgxMTU2OTM5ODAzNDQzMi5wZGYiLCJ0YXNrTmFtZSI6IuWFheWAvOS7o-WPkeaTjeS9nOaJi-WGjC1WMS4wIiwibWVyY2hhbnRSYW5nZSI6MSwidXNlcm5hbWUiOiJhZG1pbiJ9LCJzdWIiOiI2NTkzNzQ2OTAxMzUzMDgyODgwIiwiZXhwIjoxNjI5MjU3MjAzfQ.vrJxdKLw9iLvJTQ5ttjSuiS4MRejuw8gL6sU3wkKqzZM5InQEexLYjwf1P2OgicaRgOlsGO-2Gv491iPFZKOeg'}*****
+[2021-07-24 15:56:20,123] [log.py|__console] [line:44] INFO    : *****请求体信息是{'flag': 0, 'merchantName': None}*****
+[2021-07-24 15:56:20,253] [log.py|__console] [line:44] INFO    : *****发送请求结束*****
+[2021-07-24 15:57:31,654] [log.py|__console] [line:44] INFO    : *****开始发送请求*****
+[2021-07-24 15:57:31,655] [log.py|__console] [line:44] INFO    : *****请求方式是-----post-----*****
+[2021-07-24 15:57:31,657] [log.py|__console] [line:44] INFO    : *****请求路径是http://account-admin-webos-test.lastmiles.cn/account-admin-web/login*****
+[2021-07-24 15:57:31,659] [log.py|__console] [line:44] INFO    : *****请求体信息是{'username': 'admin', 'password': '123456.', 'verificationCode': 99999, 'loginStatus': 0}*****
+[2021-07-24 15:57:31,867] [log.py|__console] [line:44] INFO    : *****发送请求结束*****
+[2021-07-24 15:57:46,447] [log.py|__console] [line:44] INFO    : *****开始发送请求*****
+[2021-07-24 15:57:46,448] [log.py|__console] [line:44] INFO    : *****请求方式是-----post-----*****
+[2021-07-24 15:57:46,450] [log.py|__console] [line:44] INFO    : *****请求路径是http://account-admin-webos-test.lastmiles.cn/account-admin-web/login*****
+[2021-07-24 15:57:46,452] [log.py|__console] [line:44] INFO    : *****请求体信息是{'username': 'admin', 'password': '123456.', 'verificationCode': 99999, 'loginStatus': 0}*****
+[2021-07-24 15:57:46,552] [log.py|__console] [line:44] INFO    : *****发送请求结束*****
+[2021-07-24 15:58:41,766] [log.py|__console] [line:44] INFO    : *****开始发送请求*****
+[2021-07-24 15:58:41,768] [log.py|__console] [line:44] INFO    : *****请求方式是-----post-----*****
+[2021-07-24 15:58:41,769] [log.py|__console] [line:44] INFO    : *****请求路径是http://account-admin-webos-test.lastmiles.cn/account-admin-web/login*****
+[2021-07-24 15:58:41,770] [log.py|__console] [line:44] INFO    : *****请求体信息是{'username': 'admin', 'password': '123456.', 'verificationCode': 99999, 'loginStatus': 0}*****
+[2021-07-24 15:58:42,088] [log.py|__console] [line:44] INFO    : *****发送请求结束*****
+[2021-07-24 16:04:17,951] [log.py|__console] [line:44] INFO    : *****开始发送请求*****
+[2021-07-24 16:04:17,953] [log.py|__console] [line:44] INFO    : *****请求方式是-----post-----*****
+[2021-07-24 16:04:17,954] [log.py|__console] [line:44] INFO    : *****请求路径是http://account-admin-webos-test.lastmiles.cn/account-admin-web/login*****
+[2021-07-24 16:04:17,956] [log.py|__console] [line:44] INFO    : *****请求体信息是{'username': 'admin', 'password': '123456.', 'verificationCode': 99999, 'loginStatus': 0}*****
+[2021-07-24 16:04:18,169] [log.py|__console] [line:44] INFO    : *****发送请求结束*****
+[2021-07-24 16:04:54,416] [log.py|__console] [line:44] INFO    : *****开始发送请求*****
+[2021-07-24 16:04:54,417] [log.py|__console] [line:44] INFO    : *****请求方式是-----post-----*****
+[2021-07-24 16:04:54,418] [log.py|__console] [line:44] INFO    : *****请求路径是http://account-admin-webos-test.lastmiles.cn/account-admin-web/login*****
+[2021-07-24 16:04:54,420] [log.py|__console] [line:44] INFO    : *****请求体信息是{'username': 'admin', 'password': '123456.', 'verificationCode': 99999, 'loginStatus': 0}*****
+[2021-07-24 16:04:54,565] [log.py|__console] [line:44] INFO    : *****发送请求结束*****
+[2021-07-24 16:04:54,566] [log.py|__console] [line:50] ERROR   : *****错误信息为'NoneType' object is not subscriptable，服务器返回登录密码输入错误次数超过限制，请三个小时后重试或修改登录密码！*****
+[2021-07-24 16:05:07,595] [log.py|__console] [line:44] INFO    : *****开始发送请求*****
+[2021-07-24 16:05:07,608] [log.py|__console] [line:44] INFO    : *****请求方式是-----post-----*****
+[2021-07-24 16:05:07,610] [log.py|__console] [line:44] INFO    : *****请求路径是http://account-admin-webos-test.lastmiles.cn/account-admin-web/login*****
+[2021-07-24 16:05:07,612] [log.py|__console] [line:44] INFO    : *****请求体信息是{'username': 'admin', 'password': '123456.', 'verificationCode': 99999, 'loginStatus': 0}*****
+[2021-07-24 16:05:07,724] [log.py|__console] [line:44] INFO    : *****发送请求结束*****
+[2021-07-24 16:05:07,726] [log.py|__console] [line:50] ERROR   : *****错误信息为'NoneType' object is not subscriptable，服务器返回{'code': 500, 'message': '登录密码输入错误次数超过限制，请三个小时后重试或修改登录密码！', 'data': None, 'requestId': 'ac130005162711390766960046'}*****
+[2021-07-24 16:05:48,872] [log.py|__console] [line:44] INFO    : *****开始发送请求*****
+[2021-07-24 16:05:48,874] [log.py|__console] [line:44] INFO    : *****请求方式是-----post-----*****
+[2021-07-24 16:05:48,876] [log.py|__console] [line:44] INFO    : *****请求路径是http://account-admin-webos-test.lastmiles.cn/account-admin-web/login*****
+[2021-07-24 16:05:48,877] [log.py|__console] [line:44] INFO    : *****请求体信息是{'username': 'admin', 'password': '123456.', 'verificationCode': 99999, 'loginStatus': 0}*****
+[2021-07-24 16:05:51,081] [log.py|__console] [line:44] INFO    : *****发送请求结束*****
+[2021-07-24 16:05:51,083] [log.py|__console] [line:50] ERROR   : *****错误信息为'NoneType' object is not subscriptable，服务器返回{'code': 500, 'message': '登录密码输入错误次数超过限制，请三个小时后重试或修改登录密码！', 'data': None, 'requestId': 'ac130005162711395102460106'}*****

@@ -3,13 +3,17 @@
 __author__ = 'BIN'
 
 
-import logging, time
+import logging
+import time
 from config import config
-import os,sys
+import os
+import sys
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
 # 日志存放文件夹，如不存在，则自动创建一个logs目录
-if not os.path.exists(config.LOG):os.mkdir(config.LOG)
+if not os.path.exists(config.LOG):
+    os.mkdir(config.LOG)
+
 
 class Log():
     """
@@ -17,7 +21,7 @@ class Log():
     """
     def __init__(self):
         # 文件的命名
-        self.logname = os.path.join(config.LOG, '%s.log'%time.strftime('%Y-%m-%d '))
+        self.logname = os.path.join(config.LOG, '%s.log' %time.strftime('%Y-%m-%d '))
         self.logger = logging.getLogger()
         self.logger.setLevel(logging.DEBUG)
         # 日志输出格式
@@ -25,14 +29,14 @@ class Log():
 
     def __console(self, level, message):
         # 创建一个FileHandler，用于写到本地日志文件
-        fh = logging.FileHandler(self.logname,encoding='utf-8')
-        fh.setLevel(logging.DEBUG)
+        fh = logging.FileHandler(self.logname, encoding='utf-8')
+        fh.setLevel(logging.INFO)
         fh.setFormatter(self.formatter)
         self.logger.addHandler(fh)
 
         # 创建一个StreamHandler,用于输出到控制台
         ch = logging.StreamHandler()
-        ch.setLevel(logging.DEBUG)
+        ch.setLevel(logging.INFO)
         ch.setFormatter(self.formatter)
         self.logger.addHandler(ch)
 
