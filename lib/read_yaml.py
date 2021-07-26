@@ -20,4 +20,4 @@ class read_yaml:
 
 
 if __name__ == '__main__':
-    read_yaml(r"C:\Users\86158\Desktop\新建文件夹\pytest_request\config\requests.yaml").read_yaml()
+    read_yaml().read_yaml()

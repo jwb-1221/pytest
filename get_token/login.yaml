@@ -1,6 +1,6 @@
 -
   method: post
-  url: http://account-admin-webos-test.lastmiles.cn/account-admin-web/login
+  url: http://*****************/account-admin-web/login
   headers:
   type: data
   body:

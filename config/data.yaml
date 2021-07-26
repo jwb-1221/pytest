@@ -2,7 +2,7 @@
   - 正常登录
   -
     method: post
-    url: http://account-admin-webos-test.lastmiles.cn/account-admin-web/login
+    url: http://********************/account-admin-web/login
     headers:
     type: data
     body:
@@ -15,7 +15,7 @@
   - 账号错误登录
   -
     method: post
-    url: http://account-admin-webos-test.lastmiles.cn/account-admin-web/login
+    url: http://********************/account-admin-web/login
     headers:
     type: data
     body:
@@ -23,36 +23,12 @@
       password: '123456.'
       verificationCode: 99999
       loginStatus: 0
--
-  - 密码错误登录
-  -
-    method: post
-    url: http://account-admin-webos-test.lastmiles.cn/account-admin-web/login
-    headers:
-    type: data
-    body:
-      username: admin
-      password: '123456'
-      verificationCode: 99999
-      loginStatus: 0
--
-  - 验证码错误登录
-  -
-    method: post
-    url: http://account-admin-webos-test.lastmiles.cn/account-admin-web/login
-    headers:
-    type: data
-    body:
-      username: admin
-      password: '123456.'
-      verificationCode: 9999
-      loginStatus: 0
 
 -
   - 正常登8888888888
   -
     method: post
-    url: http://account-admin-webos-test.lastmiles.cn/account-admin-web/taxpayer/selectMerchantList
+    url: http://********************/account-admin-web/taxpayer/selectMerchantList
     headers: None
     type: data
     body:
